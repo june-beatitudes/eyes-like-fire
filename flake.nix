@@ -1,15 +1,26 @@
 {
-  description = "A very basic flake";
+  description = "Juniper Beatitudes' site build system";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }: {
-
-    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
-
-    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
-
-  };
+  outputs =
+    { self, nixpkgs, ... }@inputs:
+    let
+      system = "x86_64-linux";
+      pkgs = nixpkgs.legacyPackages.${system};
+      fhs = pkgs.buildFHSEnv {
+        name = "site-build-env";
+        targetPkgs =
+          pkgs:
+          (with pkgs; [
+            gnumake
+            pandoc
+          ]);
+      };
+    in
+    {
+      devShells.${system}.default = fhs.env;
+    };
 }
