@@ -1,9 +1,12 @@
 PANDOC := pandoc
 
 build: src/*.md
-	pandoc -s -t chunkedhtml -o build/pages.zip $< --shift-heading-level-by=-1 --toc=true
+	rm -rf build/*
+	pandoc -N -s -t chunkedhtml -o build/pages.zip $< --shift-heading-level-by=-1 --toc=true
 	unzip build/pages.zip -d build
 	rm build/pages.zip
 
-clean:
-	rm -rf build/*
+deploy: build
+	ssh site@website "rm -rf ~/build"
+	scp -r build site@website:~
+
