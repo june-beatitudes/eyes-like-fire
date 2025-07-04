@@ -17,6 +17,7 @@
           (with pkgs; [
             gnumake
             pandoc
+            unzip
           ]);
       };
     in
