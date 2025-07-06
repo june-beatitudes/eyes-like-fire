@@ -1,7 +1,9 @@
 # Juniper Alyssa Beatitudes
 
 ## About
-Embedded developer with experience in aerospace applications. Seeking employment on either US coast or remote. Passionate about space, cybersecurity, music, and languages (both human and programming). Will not work in defense, AI, crypto, or finance.
+Embedded developer with experience in aerospace applications. Seeking employment on either US coast or remote. Passionate about space, cybersecurity, music, and languages (both human and programming). Will not work in defense, AI, crypto, or finance. Email me (or contact me at one of the other links on the next page) and verify yourself to see my full résumé (including work experience).
+
+I speak English natively, French at a B2 level, and Russian at an A1 level.
 
 ## Contact
 I can be found on the following platforms:
@@ -25,8 +27,8 @@ I can be found on the following platforms:
 - `hecate`: Home-lab cluster running Proxmox, hosting this site, my media server, and several other things
 
 ### Tools
-- Fliptra: Flipper Zero used as a digital multitool and as a development platform for [BEATRIX](#beatrix)
-- Iphigenia: Aula F75 mechanical keyboard used both with `bea-laptop` and for my day job
+- Fliptra: [Flipper Zero](https://flipperzero.one/) used as a digital multitool and as a development platform for [BEATRIX](#beatrix)
+- Iphigenia: [Aula F75](https://www.aulastar.com/gaming-keyboard/176.html) mechanical keyboard used both with `bea-laptop` and for my day job
 
 ### Software
 
