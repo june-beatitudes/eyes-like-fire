@@ -6,8 +6,6 @@
 
 Embedded developer with experience in aerospace applications. Seeking employment on either US coast or remote. Passionate about space, cybersecurity, music, and languages (both human and programming). Will not work in defense, AI, crypto, or finance. Email me (or contact me at one of the other links on the next page) and verify yourself to see my full résumé (including work experience).
 
-I speak English natively, French at a B2 level, and Russian at an A1 level.
-
 ## Contact
 I can be found on the following platforms:
 
@@ -20,8 +18,6 @@ I can be found on the following platforms:
 ### [BEATRIX](https://github.com/june-beatitudes/beatrix)
 
 ### Texas A&M Rocket Engine Design
-
-### [`fixedpoint` Library](https://github.com/june-beatitudes/fixedpoint)
 
 ## Things I Use
 
@@ -49,7 +45,8 @@ I can be found on the following platforms:
 
 ### Languages
 
-Work is currently underway on versions of this site in both my non-native languages. My notes and vocabulary flashcards are available [on Github](https://github.com/june-beatitudes/russian-notes).
+Work is currently underway on versions of this site in both my non-native languages. My notes and vocabulary flashcards for Russian are available [on Github](https://github.com/june-beatitudes/russian-notes).
+
 - English: Spoken natively - roughly General American, with some influences from growing up in south Texas
 - French: Spoken at a B2 (conversational fluency) level - primarily Metropolitan French with some Quebecois influence
 - Russian: Spoken at an A1 (beginner) level - primarily so-called "standard Russian", though it's quite early to tell
