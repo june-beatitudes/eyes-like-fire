@@ -11,6 +11,6 @@ build: src/*.md src/template.html
 	rm build/english.zip build/russkij.zip build/francais.zip
 
 deploy: build
-	ssh site@website "rm -rf ~/build"
-	scp -r build site@website:~
+	ssh site@hestia-website "rm -rf ~/build"
+	scp -r build site@hestia-website:~
 
