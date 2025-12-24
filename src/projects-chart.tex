@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage[hypertex]{hyperref}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+
+\begin{document}
+\tikzset{
+  process/.style={rectangle, minimum width=5cm, minimum height=1cm, text centered, draw=black},
+  arrow/.style={thick,->,>=stealth},
+}
+\begin{tikzpicture}
+\node (penelope) [process] {\href{\#penelope}{Penelope}};
+\node (cassavetes) [process, right=of penelope] {\href{\#cassavetes}{Cassavetes}};
+\node (beatrix) [process, below=of penelope] {\href{\#beatrix}{BEATRIX}};
+\node (tinynet) [process, below=of beatrix] {\href{\#tinynet}{TinyNeT}};
+\node (tnt-router) [process, right=of tinynet] {\href{\#tinynet-router}{TinyNeT-Router}};
+\draw [arrow] (penelope) -- (cassavetes);
+\draw [arrow] (tinynet) -- (tnt-router);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,3 @@
+[submodule "extern/include-files"]
+	path = extern/include-files
+	url = https://github.com/pandoc-ext/include-files.git

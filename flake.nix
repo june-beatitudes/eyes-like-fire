@@ -18,6 +18,16 @@
             gnumake
             pandoc
             unzip
+            (texlive.combine {
+              inherit (texlive)
+                scheme-basic
+                latexmk
+                dvisvgm
+                standalone
+                pgf
+                pgfplots
+                ;
+            })
           ]);
       };
     in
