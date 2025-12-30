@@ -14,7 +14,8 @@ build: src/*.md src/*.tex src/template.html
 	rm build/english.zip build/russkij.zip build/francais.zip
 	rm build/projects-chart.dvi build/projects-chart.aux build/projects-chart.log
 
-deploy: build
-	ssh site@hestia-website "rm -rf ~/build"
-	scp -r build site@hestia-website:~
-
+deploy: build src/lighttpd.conf
+	rsync -r build juniper@hestia:/home/juniper/website
+	rsync src/lighttpd.conf juniper@hestia:/home/juniper/website
+	rsync src/Dockerfile juniper@hestia:/home/juniper/website
+	ssh juniper@hestia "cd website; podman build -t eyes-like-fire:latest .; podman run --network=host -d -v.:/var/www:Z eyes-like-fire:latest"

@@ -24,16 +24,16 @@ Noticing a theme? I like naming thing after female characters from Greek mytholo
 ### Machines
 
 - `bea-phone`: Apple iPhone 15 running iOS 26.1
-- `bea-framework`: 2025 Framework 12 running NixOS (config [here](https://github.com/june-beatitudes/nix-config))
+- `bea-pi`: Raspberry Pi 3B+ running Raspbian headlessly, used for JTAG and other hardware debugging
+- `aphrodite`: 2025 Framework 12 running NixOS (config [here](https://github.com/june-beatitudes/nix-config))
 - `artemis`: Dell Precision 5570 running Debian 13
 - `athena`: Macbook Pro 2019 running Debian 13, hosting a workhorse server and a media server
 - `hestia`: Lenovo ThinkCentre M700 mini-tower running Debian 13, hosting a proxy and this website
-- `bea-pi`: Raspberry Pi 3B+ running Raspbian headlessly, used for JTAG and other hardware debugging
 - `areia`: [Digilent Arty-S7](https://digilent.com/shop/arty-s7-spartan-7-fpga-development-board/) FPGA development board, with a Xilinx Spartan-7 FPGA chip and 256MiB of DDR3L RAM
 
 ### Tools
 - `catra`: [Flipper Zero](https://flipperzero.one/) used as a digital multitool and as a development platform for [BEATRIX](#beatrix)
-- `iphigenia`: [Aula F75](https://www.aulastar.com/gaming-keyboard/176.html) mechanical keyboard used with `bea-framework`
+- `iphigenia`: [Aula F75](https://www.aulastar.com/gaming-keyboard/176.html) mechanical keyboard used with `aphrodite`
 - `cassandra`: [Raspberry Pi Debug Probe](https://www.microcenter.com/product/663804/raspberry-pi-debug-probe) used for SWD and UART debugging
 
 ### Implants
@@ -48,8 +48,8 @@ Both implants done personally by a friend.
 - [Lighttpd](https://www.lighttpd.net/): Web server used on `pantheon` to serve this site
 - [Jellyfin](https://jellyfin.org/): Media server used on `pantheon` for my music
 - [OpenOCD](https://openocd.org/): Debugging server used on `bea-pi` to communicate with the device being worked on
-- [Zotero](https://www.zotero.org/): Reference and document manager used on `bea-framework`
-- Zsh: Shell program used on `bea-framework`, in combination with [Oh-My-Zsh](https://ohmyz.sh/)
+- [Zotero](https://www.zotero.org/): Reference and document manager used on `aphrodite`
+- Zsh: Shell program used on `aphrodite`, in combination with [Oh-My-Zsh](https://ohmyz.sh/)
 
 ### Languages
 
