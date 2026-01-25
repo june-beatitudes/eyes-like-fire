@@ -18,6 +18,7 @@
             gnumake
             pandoc
             unzip
+            mermaid-filter
             (texlive.combine {
               inherit (texlive)
                 scheme-basic

@@ -30,6 +30,8 @@ Noticing a theme? I like naming thing after female characters from Greek mytholo
 - `athena`: Macbook Pro 2019 running Debian 13, hosting a workhorse server and a media server
 - `hestia`: Lenovo ThinkCentre M700 mini-tower running Debian 13, hosting a proxy and this website
 - `areia`: [Digilent Arty-S7](https://digilent.com/shop/arty-s7-spartan-7-fpga-development-board/) FPGA development board, with a Xilinx Spartan-7 FPGA chip and 256MiB of DDR3L RAM
+- `persephone`: LilyGO T-Display-S3 running a custom software stack
+- `tamamizu`: 
 
 ### Tools
 - `catra`: [Flipper Zero](https://flipperzero.one/) used as a digital multitool and as a development platform for [BEATRIX](#beatrix)
